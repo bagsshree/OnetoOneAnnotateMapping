@@ -31,7 +31,7 @@ public class DaoImpl {
 			sess=HibernateUtils.getSession();
 			tx=sess.beginTransaction();
 			sess.save(e);
-		System.out.println("Record Saved");
+		System.out.println("Record Saved successfully");
 			tx.commit();
 			
 		}
